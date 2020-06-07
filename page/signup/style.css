@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 75%;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.signup-container > img {
+    max-width: 55%;
+    align-self: center;
+}
+
+.signup-container > .title {
+    display: flex;
+    align-items: center;
+}
+
+.signup-container > .title > a, .signup-container > .title > a > img {
+    height: 22px;
+    vertical-align: initial;
+}
+
+.signup-container > .title > p {
+    width: 100%;
+    margin-right: 22px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.signup-container .btn {
+    background-color: #673AB7;
+    color: #fafafa;
+}
